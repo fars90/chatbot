@@ -28,6 +28,13 @@ def obter_resposta(texto: str) -> str:
         'tempo': 'Está um dia de sol!',
         'que dia é hoje?': f'Hoje é dia: {datetime.now():%d-%m-%Y}',
         'que horas são?': f'São: {datetime.now():%H:%M} horas',
+        'tudo bem?': 'Está tudo ótimo, e contigo?',
+        'o que sabes fazer?': 'Sei responder a perguntas simples e conversar contigo!',
+        'estás aí?': 'Estou sempre aqui :)',
+        'qual é a capital de portugal?': 'Lisboa!',
+        'o que achas do caso anjos?': 'Ridiculo!',
+        'tens algum filme favorito?': 'Claro, o Matrix ;)',
+        'gostas de musica?': 'Sim, musica classica!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
     }
 
