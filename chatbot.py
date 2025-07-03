@@ -45,7 +45,7 @@ def chat() -> None:
 
     while True:
         user_input: str = input('Tu: ')
-
+        resposta: str = obter_resposta(user_input)
         if resposta == 'Gostei de falar contigo! Até breve...':
             break
 
